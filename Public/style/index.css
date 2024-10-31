@@ -1,0 +1,60 @@
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .bg {
+        background-image: url('../images/index-bg.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .form-container {
+        background-color: rgba(62, 62, 62, 0.8);
+        backdrop-filter: blur(10px);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 90%;
+      }
+      .form-container h2 {
+        color: #ffffff;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      .form-floating {
+        margin-bottom: 20px;
+      }
+      .form-control {
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .alert-cl{
+        color: #f40101;
+        font-weight: 500;
+      }
+      .btn-login {
+        background-color: #f4aaaa;
+        border: none;
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+      }
+      .btn-login:hover {
+        background-color: #6ef44c;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+      }
+      .input-group-text {
+        background-color: transparent;
+        border: none;
+        color: #007bff;
+      }
+  
